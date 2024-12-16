@@ -50,7 +50,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
- }
+ } 
 
     .main-banner-content h1{
     font-weight: 900;
@@ -121,20 +121,20 @@ color: rgb(0, 0, 0, 0.60);
 
 
  /******>Logo Section Css Start   <******/
- .logossection{
+ .logosSection{
     background-color: black;
 
  }
- .logossection-inner{
+ .logosSection-inner{
     padding-block: 20px;
  }
- .logossection-inner img{
+ .logosSection-inner img{
     width: 100px;
  }
 
  @media(max-width:554px)
 {
- .logossection-inner img{
+ .logosSection-inner img{
   
   width: 70px;
   margin-top: 20px;  
@@ -259,7 +259,7 @@ color: rgba(0, 0, 0, 0.60);
    color: rgba(0, 0, 0, 0.60);
 
 }
-.socialmain{
+ /*.socialmain{
    width: 30px;
    height: 30px;
    border-radius: 30px;
@@ -284,7 +284,7 @@ color: rgba(0, 0, 0, 0.60);
 .socialmain:hover .social-icon svg path{
    fill: white;
 
-} 
+} */
 .link-footer a{
 color: rgb(0, 0, 0, 0.60);
 transition: 0.3s;
@@ -320,3 +320,4 @@ transition: 0.3s;
    }
 }
 /****************>       Footer Css End              <******************/
+

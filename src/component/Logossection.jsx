@@ -5,12 +5,12 @@ import logo3 from '../assets/img/logo3.png'
 import logo4 from '../assets/img/logo4.png'
 import logo5 from '../assets/img/logo5.png'
 
-const Logossection = () => {
+const LogosSection = () => {
   return (
     <div>
-     <div className="container-fluid logossection">
+     <div className="container-fluid logosSection">
     <div className="container">
-        <div className="d-flex justify-content-between flex-wrap logossection-inner">
+        <div className="d-flex justify-content-between flex-wrap logosSection-inner">
             <div>
         <img src={logo1} alt="" />
             </div>
@@ -33,4 +33,4 @@ const Logossection = () => {
   )
 }
 
-export default Logossection
+export default LogosSection

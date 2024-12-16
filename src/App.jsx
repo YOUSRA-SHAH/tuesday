@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './component/Header'
 import HomeBanner from './component/HomeBanner'
-import Logossection from './component/Logossection'
+import LogosSection from './component/Logossection'
 import NewArrivalMain from './component/NewArrivalMain'
 
 
@@ -18,6 +18,8 @@ import TopSelling from './component/TopSelling'
 import BrowesSection from './component/BrowesSection'
 import ImgSlider from './component/ImgSlider'
 import Footer from './component/Footer'
+import CartPage from './component/CartPage'
+
 const App = () => {
 
   const ArrivalData=[
@@ -91,7 +93,7 @@ const sellingData=[
     <div>
    <Header />
    <HomeBanner />
-   <Logossection />
+   <LogosSection />
    <NewArrivalMain data={ArrivalData} />
 
    <div className="container">
@@ -100,7 +102,7 @@ const sellingData=[
 
    <TopSelling data={sellingData}/>
    <BrowesSection />
- 
+   <CartPage />
     <ImgSlider />
     <Footer />
     </div>

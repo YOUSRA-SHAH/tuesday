@@ -1,5 +1,5 @@
 import React from 'react'
-import {homemobile} from '../assets/img/mobile-view.png'
+import homemobile from '../assets/img/mobile.png'
 
 const HomeBanner = () => {
   return (
@@ -44,7 +44,7 @@ const HomeBanner = () => {
 
             <div className="row d-md-none">
                 <div className="col-12">
-                    <img src={homemobile} alt="" className='w-100' />
+                   <img src="" alt="" />  
                 </div>
             </div>
         </div>

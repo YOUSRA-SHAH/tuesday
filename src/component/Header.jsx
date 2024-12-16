@@ -142,7 +142,7 @@ const Header = () => {
         <input
           className="form-control px-5  me-2 py-2 w-100"
           type="search"
-          placeholder="Search"
+          placeholder="Search for products..."
           aria-label="Search"
         />
         
